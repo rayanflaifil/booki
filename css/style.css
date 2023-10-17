@@ -32,6 +32,11 @@ nav {
   align-items: center;
 }
 
+footer{
+  display: flex;
+  justify-content: space-between;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -41,6 +46,22 @@ ul {
 nav ul {
   display: flex;
   gap: 50px;
+}
+
+.filters, 
+.filters ul {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.activites ul {
+  display: flex;
+  gap: 50px;
+}
+
+.activites li{
+  width: calc((100% - 150px) / 4);
 }
 
 figure,
