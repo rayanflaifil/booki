@@ -57,11 +57,17 @@ nav ul {
 
 .activites ul {
   display: flex;
-  gap: 50px;
+  gap: 30px;
 }
 
 .activites li{
-  width: calc((100% - 150px) / 4);
+  width: calc((100% - 90px) / 4);
+}
+
+.activites img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 
 figure,
@@ -143,6 +149,33 @@ nav img {
 .hebergements {
   width: 65%;
 }
+
+.hebergements-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.hebergements-cards a {
+  width: calc((100% - 60px) / 3);
+}
+
+.hebergements-cards img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.hebergements-cards .card-content {
+  display: flex;
+  flex-flow: column;
+  place-content: space-evenly;
+  height: 100px;
+
+}
+
+
 
 /****** Populaires ***********/
 .populaires {
