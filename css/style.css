@@ -93,6 +93,36 @@ nav a:focus {
   color: var(--main-color);
 }
 
+form{
+  display: flex;
+}
+
+.fa-location-dot {
+  color: #000;
+  width: 50px;
+  height: 50px;
+  background-color: var(--main-bg-color); 
+  border-radius: 15px 0 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+[type="search"] {
+  width: 220px;
+  height: 50px;
+  border: none;
+  border-top: solid 2px var(--main-bg-color);
+  border-bottom: solid 2px var(--main-bg-color);
+  border-right: solid 2px var(--main-bg-color);
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.search {
+  
+}
+
 .section-title {
   margin: 0;
   font-size: 22px;
