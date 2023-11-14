@@ -95,7 +95,10 @@ nav a:focus {
 
 form{
   display: flex;
+  margin: 35px 0;
 }
+
+
 
 .fa-location-dot {
   color: #000;
@@ -120,8 +123,13 @@ form{
 }
 
 .search {
-  
+  background-color: var(--main-color);
+  color: #fff;
+  border-radius: 0 15px 15px 0;
+  border: none;
+  width: 100px;
 }
+
 
 .section-title {
   margin: 0;
