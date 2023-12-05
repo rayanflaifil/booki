@@ -36,6 +36,9 @@ nav {
 footer{
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  background: var(--grey-tint);
 }
 
 ul {
