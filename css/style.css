@@ -37,9 +37,17 @@ footer{
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  align-self: stretch;
+  padding: 20px;
   background: var(--grey-tint);
 }
+
+footer section,
+footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
 
 ul {
   margin: 0;
