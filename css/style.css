@@ -314,6 +314,30 @@ div[style^="width: 4px; height: 10px; left: 10px; top: 7px; position: absolute; 
   display: none; /* Pour masquer la barre horizontale du cercle SVG */
 }
 
+/* Ajout du cercle autour de l'icône */
+.fa-location-dot::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid #D9D9D9;
+  background-color: #FFFFFF;
+  display: block;
+  position: absolute;
+}
+
+/* Ajout de la barre horizontale du cercle */
+.fa-location-dot::after {
+  content: "";
+  width: 4px;
+  height: 10px;
+  background: #0065FC;
+  display: block;
+  position: absolute;
+  top: 7px;
+  left: 10px;
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
