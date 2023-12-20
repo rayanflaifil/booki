@@ -85,6 +85,11 @@ nav ul {
   cursor: pointer;
 }
 
+.special-paragraph {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .activites {
   padding: 30px;
 }
