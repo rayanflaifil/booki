@@ -169,13 +169,16 @@ form{
 
 [type="search"] {
   height: 50px;
+  width: 190px;
   border: none;
   border-top: solid 2px var(--main-bg-color);
   border-bottom: solid 2px var(--main-bg-color);
   border-right: solid 2px var(--main-bg-color);
   padding: 0 15px;
+  font-size: 17px;
   box-sizing: border-box;
   font-weight: bold;
+  text-align: center;
 }
 
 .search {
@@ -183,7 +186,8 @@ form{
   color: #fff;
   border-radius: 0 15px 15px 0;
   border: none;
-  width: 150px;
+  width: 140px;
+  font-size: 17px;
   font-weight: bold;
 }
 
