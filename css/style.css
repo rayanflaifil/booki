@@ -273,6 +273,8 @@ nav img {
   place-content: space-evenly;
   height: 100px;
   padding: 0 5px 5px;
+  margin-top: 20px;
+  align-items: left;
 }
 
 .hebergements > p {
