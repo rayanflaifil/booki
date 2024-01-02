@@ -385,6 +385,22 @@ nav img {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
 
+  .main-container {
+    padding: 0;
+  }
+
+  .populaires-cards,
+  .activites ul,
+  footer {
+    flex-direction: column;
+  }
+
+  .hebergements-cards a,
+  .populaires-cards a,
+  .activites li,
+  footer section{
+    width: 100%;
+  }
   
   /* ... */
 }
