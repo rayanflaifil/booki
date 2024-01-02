@@ -385,8 +385,41 @@ nav img {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
 
+  nav {
+    flex-flow: column;
+    margin-bottom: 30px;
+  }
+
+  nav ul {
+    width: 100%;
+    text-align: center;
+    gap: 0;
+  }
+
+  nav li {
+    width: 50%;
+
+  }
+
+  nav a {
+    display: block;
+    border-top: none;
+    padding-top: 0;
+    border-bottom: solid 2px transparent;
+    padding-bottom: 28px;
+  }
+
+  header > *:not(nav) {
+    padding: 0 20px;
+  }
+
   .main-container {
     padding: 0;
+  }
+
+  .filters li {
+    width: calc((100% - 20px) / 2);
+    box-sizing: border-box;
   }
 
   .populaires-cards,
