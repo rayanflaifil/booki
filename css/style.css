@@ -174,10 +174,8 @@ form{
 [type="search"] {
   height: 50px;
   width: 190px;
-  border: none;
-  border-top: solid 2px var(--main-bg-color);
-  border-bottom: solid 2px var(--main-bg-color);
-  border-right: solid 2px var(--main-bg-color);
+  border: solid 2px var(--main-bg-color);
+  border-left: none;
   padding: 0 15px;
   font-size: 17px;
   box-sizing: border-box;
@@ -424,10 +422,11 @@ nav img {
     width: calc((100% - 20px) / 2);
     padding: 10px 5px;
     box-sizing: border-box;
+    font-size: 0.9rem;
   }
 
-  .filters li:not(i) {
-    font-size: 0.9rem;
+  .filters i {
+    font-size: 1rem;
   }
 
   .populaires-cards,
