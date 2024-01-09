@@ -422,6 +422,7 @@ nav img {
 
   .filters li {
     width: calc((100% - 20px) / 2);
+    padding: 10px 5px;
     box-sizing: border-box;
   }
 
