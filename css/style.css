@@ -409,7 +409,7 @@ nav img {
     border-top: none;
     padding-top: 0;
     border-bottom: solid 2px transparent;
-    padding-bottom: 28px;
+    padding-bottom: 20px;
   }
 
   header > *:not(nav) {
@@ -426,6 +426,10 @@ nav img {
     box-sizing: border-box;
   }
 
+  .filters li:not(i) {
+    font-size: 0.9rem;
+  }
+
   .populaires-cards,
   .activites ul,
   footer {
@@ -439,11 +443,16 @@ nav img {
     width: 100%;
   }
 
+  [type="search"] {
+    width: 100%;
+  }
+
   .search {
     display: none; /* Masquer le bouton Rechercher dans la version mobile */
 }
 
 .fa-magnifying-glass {
+  margin-left: -10px;
   display: inline-flex;
   color: #fff;
   padding: 15px 16px;
